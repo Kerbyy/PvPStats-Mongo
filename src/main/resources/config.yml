@@ -1,0 +1,10 @@
+mongo:
+  host: "localhost"
+  port: 27017
+  database: "stats"
+  collection: "profiles"
+  auth:
+    enable: false
+    username: "mongo"
+    password: ""
+    authdb: "admin"
